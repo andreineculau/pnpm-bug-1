@@ -1,0 +1,19 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  git:
+    specifier: git+ssh://git@github.com/ysoftwareab/yplatform.git
+    version: github.com/ysoftwareab/yplatform/3ab1135286b0da218cc4c52afe0b83e3f2fdfb1f
+
+packages:
+
+  github.com/ysoftwareab/yplatform/3ab1135286b0da218cc4c52afe0b83e3f2fdfb1f:
+    resolution: {tarball: https://codeload.github.com/ysoftwareab/yplatform/tar.gz/3ab1135286b0da218cc4c52afe0b83e3f2fdfb1f}
+    name: yplatform
+    version: 0.3.40
+    engines: {node: '>=18', npm: '>=9'}
+    dev: false
